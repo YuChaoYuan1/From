@@ -19,8 +19,6 @@ namespace LYForms
 
             InitializeComponent();
 
-            //
-            
             ViewShow();
 
             DispatcherTimer timer = new DispatcherTimer();

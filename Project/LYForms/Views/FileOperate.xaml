@@ -7,9 +7,66 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <Button HorizontalAlignment="Left" Margin="173,149,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click">
-            <Button Content="Button" Width="75"/>
-        </Button>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="170"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left" Width="170" Background="AliceBlue">
+                <Label Content="文件解密后存放地址：" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="15" Width="150"></Label>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left" Background="AliceBlue">
+                <TextBlock Name="txt" HorizontalAlignment="Center"  VerticalAlignment="Center"></TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Left">
+                <Button Content="…"  HorizontalAlignment="Center" VerticalContentAlignment="Center" Width="20" Height="20" Click="Button_Click_1"></Button>
+            </StackPanel>
+        </Grid>
 
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+                <StackPanel>
+                    <RadioButton
+                        Style="{StaticResource AduRadioButtonMenu}"
+                        Click="Button_Click"
+                        Content="单个文件解密"
+                        GroupName="Menu"
+                        IsChecked="False" />
+                    <RadioButton
+                        Style="{StaticResource AduRadioButtonMenu}"
+                        Click="Button1_Click"
+                        Content="选择文件"
+                        GroupName="Menu"
+                        IsChecked="False" />
+                    <RadioButton
+                        Style="{StaticResource AduRadioButtonMenu}"
+                        Click="Button3_Click"
+                        Content="选择文件夹"
+                        GroupName="Menu"
+                        IsChecked="False" />
+                    <RadioButton
+                        Style="{StaticResource AduRadioButtonMenu}"
+                        Click="Button2_Click"
+                        Content="文件解密"
+                        GroupName="Menu"
+                        IsChecked="False" />
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="1">
+                <TreeView  Name="tvww" Height="100" Background="Red"/>
+                <TreeView Name="tvw"  Margin="5" VerticalAlignment="Top" BorderBrush="AliceBlue" />
+            </Grid>
+
+        </Grid>
     </Grid>
 </UserControl>

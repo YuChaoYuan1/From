@@ -36,3 +36,33 @@
 
 2024/7/31 11:40:17   :解密文件2:D:\代码\智慧能源单元\文档\智慧能源单元自动化检测方案_20240319(1).docx
 
+2024/7/31 13:45:18   :打开界面LYForms.Views.ReadComputer
+
+2024/7/31 13:45:18   :打开界面LYForms.Views.ReadComputer
+
+2024/7/31 13:45:19   :打开界面LYForms.Views.DataShow
+
+2024/7/31 13:45:19   :打开界面LYForms.Views.DataShow
+
+2024/7/31 13:45:20   :打开界面LYForms.Views.FileOperate
+
+2024/7/31 13:45:20   :打开界面LYForms.Views.FileOperate
+
+2024/7/31 13:45:22   :打开界面LYForms.Views.PassBarPage
+
+2024/7/31 13:45:22   :打开界面LYForms.Views.PassBarPage
+
+2024/7/31 13:45:23   :打开界面LYForms.Views.IndexView
+
+2024/7/31 13:45:23   :打开界面LYForms.Views.IndexView
+
+2024/7/31 13:45:23   :打开界面LYForms.Views.YycMoney
+
+2024/7/31 13:45:23   :打开界面LYForms.Views.YycMoney
+
+2024/7/31 13:45:25   :打开数据操作界面
+
+2024/7/31 13:45:27   :打开界面LYForms.Views.ReadComputer
+
+2024/7/31 13:45:27   :打开界面LYForms.Views.ReadComputer
+

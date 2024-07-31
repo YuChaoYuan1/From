@@ -40,6 +40,30 @@ namespace LYForms.Views {
     /// </summary>
     public partial class FileOperate : System.Windows.Controls.UserControl, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 24 "..\..\..\Views\FileOperate.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBlock txt;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 66 "..\..\..\Views\FileOperate.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TreeView tvww;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 67 "..\..\..\Views\FileOperate.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TreeView tvw;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -71,12 +95,53 @@ namespace LYForms.Views {
             switch (connectionId)
             {
             case 1:
+            this.txt = ((System.Windows.Controls.TextBlock)(target));
+            return;
+            case 2:
             
-            #line 10 "..\..\..\Views\FileOperate.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
+            #line 27 "..\..\..\Views\FileOperate.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_1);
             
             #line default
             #line hidden
+            return;
+            case 3:
+            
+            #line 41 "..\..\..\Views\FileOperate.xaml"
+            ((System.Windows.Controls.RadioButton)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 4:
+            
+            #line 47 "..\..\..\Views\FileOperate.xaml"
+            ((System.Windows.Controls.RadioButton)(target)).Click += new System.Windows.RoutedEventHandler(this.Button1_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 5:
+            
+            #line 53 "..\..\..\Views\FileOperate.xaml"
+            ((System.Windows.Controls.RadioButton)(target)).Click += new System.Windows.RoutedEventHandler(this.Button3_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 6:
+            
+            #line 59 "..\..\..\Views\FileOperate.xaml"
+            ((System.Windows.Controls.RadioButton)(target)).Click += new System.Windows.RoutedEventHandler(this.Button2_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 7:
+            this.tvww = ((System.Windows.Controls.TreeView)(target));
+            return;
+            case 8:
+            this.tvw = ((System.Windows.Controls.TreeView)(target));
             return;
             }
             this._contentLoaded = true;

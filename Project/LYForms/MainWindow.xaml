@@ -135,6 +135,17 @@
                                     attached:Icon.Width="16"
                                     IsChecked="False" />
 
+                                <RadioButton
+                                    Style="{StaticResource AduRadioButtonMenu}"
+                                           Command="{Binding TbPageCommand}"
+                                    CommandParameter="LYForms.Views.FileOperate"
+                                    Content="绿盾文件解密"
+                                    GroupName="Menu"
+                                    attached:Icon.Geometry="{StaticResource Icon_Project}"
+                                    attached:Icon.Height="18"
+                                    attached:Icon.Width="16"
+                                    IsChecked="False" />
+
                             </StackPanel>
                         </Expander>
                         <Button Content="    数据处理" Style="{StaticResource ButtonMenu}" Width="200"  HorizontalContentAlignment="Left"   Command="{Binding DataShow}" BorderThickness="0"/>
