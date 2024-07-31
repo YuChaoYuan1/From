@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="LYForms.Views.IndexView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LYForms.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" HorizontalContentAlignment="Stretch">
+    <Grid Background="AliceBlue" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Button x:Name="button" Content="读取Xml" FontSize="20" HorizontalAlignment="Left" VerticalContentAlignment="Top" Width="150" Foreground="White"  
+                Margin="0,10,0,-0.4" Click="btnRead_Click">
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border BorderThickness="1" BorderBrush="Black" CornerRadius="10" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+            <Button  Height="40"  FontSize="20"  Width="150" VerticalAlignment="Top" HorizontalAlignment="Right"   Content="写入Xml" Foreground="White" Background="Black"
+                 x:Name="btnLogin_Copy" Margin="0,10,0,0" Click="BtnWrite_Click"  >
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border BorderThickness="1" BorderBrush="Black" CornerRadius="10" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+            <Button Content="导出文件" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="332,28,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+
+            <DataGrid Name="dgvshowxml"  ItemsSource="{Binding}"  Margin="5" HeadersVisibility="All"  HorizontalContentAlignment="Stretch" />
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Label Content="每页显示:" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,5,200,5"></Label>
+            <ComboBox Name="Cmb" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,5,150,5"></ComboBox>
+        </Grid>
+    </Grid>
+</UserControl>

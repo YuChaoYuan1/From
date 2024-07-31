@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="LYForms.Views.PassBarPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver" 
+             xmlns:local="clr-namespace:LYForms.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="AntiqueWhite">
+            <Label Content="登录界面" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" ></Label>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Button HorizontalAlignment="Left" Width="150" Height="50"  Command="{Binding GetWindows}" ></Button>
+            <Button HorizontalAlignment="Center" Width="150" Height="50"   Command="{Binding GetLogin}"></Button>
+            <Button HorizontalAlignment="Right" Width="150" Height="50"  Command="{Binding GetPar}"></Button>
+        </Grid>
+
+    </Grid>
+</UserControl>

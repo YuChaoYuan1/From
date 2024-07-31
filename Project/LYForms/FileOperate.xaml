@@ -1,0 +1,43 @@
+﻿<Window x:Class="LYForms.FileOperate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LYForms"
+        mc:Ignorable="d"
+        Title="数据处理" Height="450" Width="800" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Button  Height="40"  FontSize="18"  Width="140" VerticalAlignment="Top" HorizontalAlignment="Left"   Content="读取数据" Foreground="White" Background="Black"
+                 x:Name="btnreaddata" Margin="5" Click="btnreaddata_Click" >
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border BorderThickness="1" BorderBrush="Black" CornerRadius="5" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+        </Grid>
+        <Grid Grid.Row="1">
+            <DataGrid Name="dgvDataShow" Width="Auto"   ItemsSource="{Binding}" Margin="10,10,0,0"  AutoGenerateColumns="True"  AlternatingRowBackground="AliceBlue"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="483*"/>
+                <ColumnDefinition Width="310*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="每页显示:" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,60,5" Grid.Column="1"></Label>
+            <ComboBox Name="Cmb" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,5" RenderTransformOrigin="-0.556,0.329" Width="45" Height="26" SelectionChanged="Cmb_SelectionChanged" Grid.Column="1"></ComboBox>
+            <Label Name="lbl" Content="1" Grid.Column="1" HorizontalAlignment="Left" Margin="104.8,9,0,0" VerticalAlignment="Top" Width="26"/>
+            <Button Content=">" Grid.Column="1" HorizontalAlignment="Left" Margin="135.8,10,0,0" VerticalAlignment="Top" Width="21" Height="25" Click="Button_Click_1"/>
+            <Button Content="&lt;" Grid.Column="1" HorizontalAlignment="Left" Margin="78.8,10,0,0" VerticalAlignment="Top" Width="21" Height="25"/>
+        </Grid>
+    </Grid>
+</Window>
