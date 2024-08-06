@@ -1,0 +1,66 @@
+2024/8/6 10:53:53   :打开界面LYForms.Views.FileOperate
+
+2024/8/6 10:53:53   :打开界面LYForms.Views.FileOperate
+
+2024/8/6 10:53:57   :打开界面LYForms.Views.FileOperate
+
+2024/8/6 10:53:57   :打开界面LYForms.Views.FileOperate
+
+2024/8/6 10:53:58   :打开界面LYForms.Views.ReadComputer
+
+2024/8/6 10:53:58   :打开界面LYForms.Views.ReadComputer
+
+2024/8/6 10:53:59   :打开界面LYForms.Views.DataShow
+
+2024/8/6 10:53:59   :打开界面LYForms.Views.DataShow
+
+2024/8/6 10:54:00   :打开界面LYForms.Views.ReadComputer
+
+2024/8/6 10:54:00   :打开界面LYForms.Views.ReadComputer
+
+2024/8/6 10:54:04   :打开界面LYForms.Views.FileOperate
+
+2024/8/6 10:54:04   :打开界面LYForms.Views.FileOperate
+
+2024/8/6 10:54:05   :打开界面LYForms.Views.PassBarPage
+
+2024/8/6 10:54:05   :打开界面LYForms.Views.PassBarPage
+
+2024/8/6 10:54:05   :打开界面LYForms.Views.IndexView
+
+2024/8/6 10:54:06   :打开界面LYForms.Views.IndexView
+
+2024/8/6 10:54:06   :打开界面LYForms.Views.YycMoney
+
+2024/8/6 10:54:06   :打开界面LYForms.Views.YycMoney
+
+2024/8/6 10:54:07   :打开界面LYForms.Views.Serial
+
+2024/8/6 10:54:07   :打开界面LYForms.Views.Serial
+
+2024/8/6 10:54:09   :打开界面LYForms.Views.FileOperate
+
+2024/8/6 10:54:09   :打开界面LYForms.Views.FileOperate
+
+2024/8/6 10:54:10   :打开界面LYForms.Views.DataShow
+
+2024/8/6 10:54:10   :打开界面LYForms.Views.DataShow
+
+2024/8/6 10:54:10   :打开界面LYForms.Views.ReadComputer
+
+2024/8/6 10:54:10   :打开界面LYForms.Views.ReadComputer
+
+2024/8/6 10:54:11   :打开界面LYForms.Views.FileOperate
+
+2024/8/6 10:54:11   :打开界面LYForms.Views.FileOperate
+
+2024/8/6 10:54:11   :打开数据操作界面
+
+2024/8/6 11:38:08   :打开界面LYForms.Views.Server
+
+2024/8/6 11:38:09   :打开界面LYForms.Views.Server
+
+2024/8/6 11:39:59   :打开界面LYForms.Views.Server
+
+2024/8/6 11:40:00   :打开界面LYForms.Views.Server
+

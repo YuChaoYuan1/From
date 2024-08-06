@@ -33,7 +33,6 @@ namespace LYForms
         public LDFileDecryption()
         {
             InitializeComponent();
-            txt.Text= pathFile;
         }
 
         

@@ -54,7 +54,6 @@ D:\代码\Project\新建文件夹\LYFrom\Project\LYForms\obj\Debug\LYForms.pdb
 D:\代码\Project\From\Resource\LYForms.exe.config
 D:\代码\Project\From\Resource\LYForms.exe
 D:\代码\Project\From\Resource\LYForms.pdb
-D:\代码\Project\From\Project\LYForms\obj\Debug\LYForms.csproj.AssemblyReference.cache
 D:\代码\Project\From\Project\LYForms\obj\Debug\Style\Expander.baml
 D:\代码\Project\From\Project\LYForms\obj\Debug\Style\SIcon.baml
 D:\代码\Project\From\Project\LYForms\obj\Debug\Style\Skin.baml
@@ -96,10 +95,10 @@ D:\代码\Project\From\Project\LYForms\obj\Debug\Views\PassBarPage.baml
 D:\代码\Project\From\Project\LYForms\obj\Debug\Views\PassBarPages\pargressBar1.baml
 D:\代码\Project\From\Project\LYForms\obj\Debug\Views\PassBarPages\PassBar1.baml
 D:\代码\Project\From\Project\LYForms\obj\Debug\Views\ReadComputer.baml
+D:\代码\Project\From\Project\LYForms\obj\Debug\Views\SerialPortTool.baml
 D:\代码\Project\From\Project\LYForms\obj\Debug\Views\XmlEdit.baml
 D:\代码\Project\From\Project\LYForms\obj\Debug\Views\YycMoney.baml
 D:\代码\Project\From\Project\LYForms\obj\Debug\测试.baml
-D:\代码\Project\From\Project\LYForms\obj\Debug\Views\SerialPortTool.baml
 D:\代码\Project\From\Project\LYForms\obj\Debug\LYForms.g.resources
 D:\代码\Project\From\Project\LYForms\obj\Debug\LYForms.Properties.Resources.resources
 D:\代码\Project\From\Project\LYForms\obj\Debug\LYForms.csproj.GenerateResource.cache
@@ -107,3 +106,7 @@ D:\代码\Project\From\Project\LYForms\obj\Debug\LYForms.csproj.CoreCompileInput
 D:\代码\Project\From\Project\LYForms\obj\Debug\LYForms.csproj.CopyComplete
 D:\代码\Project\From\Project\LYForms\obj\Debug\LYForms.exe
 D:\代码\Project\From\Project\LYForms\obj\Debug\LYForms.pdb
+D:\代码\Project\From\Project\LYForms\obj\Debug\Views\Serial.g.cs
+D:\代码\Project\From\Project\LYForms\obj\Debug\Views\Serial.baml
+D:\代码\Project\From\Project\LYForms\obj\Debug\Views\Server.g.cs
+D:\代码\Project\From\Project\LYForms\obj\Debug\Views\Server.baml

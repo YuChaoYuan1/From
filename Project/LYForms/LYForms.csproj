@@ -147,8 +147,14 @@
     <Compile Include="Views\ReadComputer.xaml.cs">
       <DependentUpon>ReadComputer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Serial.xaml.cs">
+      <DependentUpon>Serial.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SerialPortTool.xaml.cs">
       <DependentUpon>SerialPortTool.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Server.xaml.cs">
+      <DependentUpon>Server.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\XmlEdit.xaml.cs">
       <DependentUpon>XmlEdit.xaml</DependentUpon>
@@ -239,7 +245,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\Serial.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\SerialPortTool.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Server.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
