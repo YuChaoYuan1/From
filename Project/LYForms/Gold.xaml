@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Gold" Height="450" Width="800">
     <Grid>
+        <TextBox Name="txtBox" HorizontalAlignment="Left" Height="340" Margin="10,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="774"/>
 
     </Grid>
 </Window>
